@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  /* Add cartoon-style text shadow utility */
+  .text-shadow-cartoon {
+    text-shadow: 2px 2px 0 #000; /* Default size */
+  }
+
+  /* Responsive text shadows */
+  @media (max-width: 640px) {
+    .text-shadow-cartoon {
+      text-shadow: 1px 1px 0 #000; /* Smaller shadow for small screens */
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 768px) {
+    .text-shadow-cartoon {
+      text-shadow: 1.5px 1.5px 0 #000; /* Medium shadow for medium screens */
+    }
+  }
+
+  @media (min-width: 769px) {
+    .text-shadow-cartoon {
+      text-shadow: 2px 2px 0 #000; /* Larger shadow for large screens */
+    }
+  }
+
+  /* Add 3D button effect utility */
+  .btn-3d {
+    @apply border-4 border-black shadow-[4px_4px_0_0_#000] transition-all;
+  }
+
+  .btn-3d:hover {
+    @apply translate-y-1 shadow-[2px_2px_0_0_#000];
+  }
+
+  /* Responsive button styles */
+  @media (max-width: 640px) {
+    .btn-3d {
+      @apply border-2 shadow-[2px_2px_0_0_#000]; /* Smaller shadow and border */
+    }
+
+    .btn-3d:hover {
+      @apply translate-y-0.5 shadow-[1px_1px_0_0_#000]; /* Smaller hover effect */
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 768px) {
+    .btn-3d {
+      @apply border-3 shadow-[3px_3px_0_0_#000]; /* Medium shadow and border */
+    }
+
+    .btn-3d:hover {
+      @apply translate-y-0.75 shadow-[2px_2px_0_0_#000]; /* Medium hover effect */
+    }
+  }
+
+  /* Define custom border-3 utility */
+  .border-3 {
+    border-width: 3px;
+  }
+
+  /* Random movement animations */
+  .panda-move-1 {
+    animation: moveRandomly1 10s linear infinite;
+  }
+
+  .panda-move-2 {
+    animation: moveRandomly2 8s linear infinite;
+  }
+
+  .panda-move-3 {
+    animation: moveRandomly3 12s linear infinite;
+  }
+
+  .panda-move-4 {
+    animation: moveRandomly4 7s linear infinite;
+  }
+
+  .panda-move-5 {
+    animation: moveRandomly5 9s linear infinite;
+  }
+
+  /* Keyframes for panda 1 */
+  @keyframes moveRandomly1 {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(-50vw, -30vh); /* Move to top-left */
+    }
+    50% {
+      transform: translate(100vw, 50vh); /* Move to bottom-right */
+    }
+    75% {
+      transform: translate(-100vw, 100vh); /* Move to bottom-left */
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  /* Responsive animations */
+  @media (max-width: 640px) {
+    @keyframes moveRandomly1 {
+      25% {
+        transform: translate(-25vw, -15vh); /* Reduced movement */
+      }
+      50% {
+        transform: translate(50vw, 25vh); /* Reduced movement */
+      }
+      75% {
+        transform: translate(-50vw, 50vh); /* Reduced movement */
+      }
+    }
+  }
+
+  /* Repeat similar adjustments for other keyframes */
+}
+/* Random Movement Animations */
+.panda-move-1 {
+  animation: moveRandomly1 10s linear infinite;
+}
+
+.panda-move-2 {
+  animation: moveRandomly2 8s linear infinite;
+}
+
+.panda-move-3 {
+  animation: moveRandomly3 12s linear infinite;
+}
+
+.panda-move-4 {
+  animation: moveRandomly4 7s linear infinite;
+}
+
+.panda-move-5 {
+  animation: moveRandomly5 9s linear infinite;
+}
+
+/* Keyframes for Panda 1 */
+@keyframes moveRandomly1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-50vw, -30vh); /* Move to top-left */
+  }
+  50% {
+    transform: translate(100vw, 50vh); /* Move to bottom-right */
+  }
+  75% {
+    transform: translate(-100vw, 100vh); /* Move to bottom-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Return to start */
+  }
+}
+
+/* Keyframes for Panda 2 */
+@keyframes moveRandomly2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100vw, -50vh); /* Move to top-right */
+  }
+  50% {
+    transform: translate(-100vw, 50vh); /* Move to bottom-left */
+  }
+  75% {
+    transform: translate(50vw, 100vh); /* Move to bottom-center */
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Keyframes for Panda 3 */
+@keyframes moveRandomly3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-100vw, 30vh); /* Move to left-middle */
+  }
+  50% {
+    transform: translate(100vw, -50vh); /* Move to top-right */
+  }
+  75% {
+    transform: translate(-50vw, 100vh); /* Move to bottom-left */
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Keyframes for Panda 4 */
+@keyframes moveRandomly4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100vw, 100vh); /* Move to bottom-right */
+  }
+  50% {
+    transform: translate(-100vw, -50vh); /* Move to top-left */
+  }
+  75% {
+    transform: translate(50vw, -100vh); /* Move to top-center */
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Keyframes for Panda 5 */
+@keyframes moveRandomly5 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-100vw, 100vh); /* Move to bottom-left */
+  }
+  50% {
+    transform: translate(100vw, -100vh); /* Move to top-right */
+  }
+  75% {
+    transform: translate(-50vw, 50vh); /* Move to middle-left */
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Responsive Adjustments for Smaller Screens */
+@media (max-width: 640px) {
+  @keyframes moveRandomly1 {
+    25% {
+      transform: translate(-25vw, -15vh); /* Reduced movement */
+    }
+    50% {
+      transform: translate(50vw, 25vh); /* Reduced movement */
+    }
+    75% {
+      transform: translate(-50vw, 50vh); /* Reduced movement */
+    }
+  }
+
+  /* Repeat similar adjustments for other keyframes */
+}
