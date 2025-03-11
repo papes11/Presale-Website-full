@@ -58,7 +58,7 @@ export function FeatureSection() {
           className="text-4xl font-black text-ghost-dark text-center mb-12"
           style={{ textShadow: "2px 2px 0 rgba(255,255,255,0.5)" }}
         >
-          Unleash the Power of COURAGE
+          Unleash the Power of presale coin
         </h2>
         {/* Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -95,7 +95,7 @@ export function FeatureSection() {
           </h3>
           <div className="flex items-center justify-center space-x-4 mb-4">
             <a
-              href="https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+              href="https://en.wikipedia.org/wiki/presale coin_the_Cowardly_Dog"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -156,7 +156,7 @@ export function FeatureSection() {
             The value of cryptocurrencies may fluctuate. Profits may be subject
             to capital gains or other taxes applicable in your jurisdiction.
           </p>
-          <p className="mt-2">©courage memedog 2025 all rights reserved</p>
+          <p className="mt-2">©presale coin memedog 2025 all rights reserved</p>
         </div>
       </div>
 
@@ -189,9 +189,9 @@ export function FeatureSection() {
 
                   <p className="font-medium text-xl">INTRODUCTION</p>
                   <p className="mb-4">
-                    Welcome to the courage website and platform ("we," "us," or
+                    Welcome to the presale coin website and platform ("we," "us," or
                     "our"). By accessing or using our website, services, or
-                    purchasing courage tokens, you agree to comply with and be
+                    purchasing presale coin tokens, you agree to comply with and be
                     bound by these Terms of Service ("Terms"). Please read these
                     Terms carefully before using our services. If you do not
                     agree with these Terms, you must discontinue use of our
@@ -201,27 +201,27 @@ export function FeatureSection() {
                   <p className="font-medium text-xl">1. ELIGIBILITY</p>
                   <p className="mb-4">
                     You must be at least 18 years old to use our services or
-                    purchase courage tokens. By accessing our services, you
+                    purchase presale coin tokens. By accessing our services, you
                     confirm that you are not a citizen, resident, or entity of
                     any restricted country or jurisdiction where the use or
-                    purchase of courage is prohibited by law.
+                    purchase of presale coin is prohibited by law.
                   </p>
 
                   <p className="font-medium text-xl">
-                    2. Nature of courage Tokens
+                    2. Nature of presale coin Tokens
                   </p>
                   <p className="mb-4">
-                    courage tokens are experimental memecoin intended for
+                    presale coin tokens are experimental memecoin intended for
                     entertainment purposes only. They are not considered
-                    financial instruments, securities, or investments. courage
+                    financial instruments, securities, or investments. presale coin
                     tokens are not guaranteed to hold any intrinsic value, be
                     resellable, or tradable on any market. The purchase and use
-                    of courage are solely at your own risk.
+                    of presale coin are solely at your own risk.
                   </p>
 
                   <p className="font-medium text-xl">3. Risks</p>
                   <p className="mb-4">
-                    By purchasing or using courage tokens, you acknowledge the
+                    By purchasing or using presale coin tokens, you acknowledge the
                     inherent risks associated with cryptocurrencies, including
                     but not limited to:
                     <ul className="list-disc pl-6 mt-2">
@@ -232,7 +232,7 @@ export function FeatureSection() {
                       </li>
                       <li>
                         Regulatory changes that may impact the legality or use
-                        of courage.
+                        of presale coin.
                       </li>
                       <li>
                         Security vulnerabilities, hacks, or other technical
@@ -269,7 +269,7 @@ export function FeatureSection() {
 
                   <p className="font-medium text-xl">5. Presale Terms</p>
                   <p className="mb-4">
-                    The 15-hour courage presale operates under a dynamic pricing
+                    The 15-hour presale coin presale operates under a dynamic pricing
                     model, where token prices increase at every stage. Unsold
                     tokens at the end of the presale will be burned to ensure
                     scarcity and value for existing holders. All purchases
@@ -280,8 +280,8 @@ export function FeatureSection() {
                     6. Intellectual Property
                   </p>
                   <p className="mb-4">
-                    All content on the courage website, including logos,
-                    graphics, text, and software, is the property of courage or
+                    All content on the presale coin website, including logos,
+                    graphics, text, and software, is the property of presale coin or
                     its licensors and is protected by copyright and trademark
                     laws. You may not reproduce, modify, distribute, or use any
                     content without our prior written consent.
@@ -295,7 +295,7 @@ export function FeatureSection() {
                     liable for any damages, including but not limited to:
                     <ul className="list-disc pl-6 mt-2">
                       <li>
-                        Losses incurred from the purchase or use of courage
+                        Losses incurred from the purchase or use of presale coin
                         tokens.
                       </li>
                       <li>
@@ -330,7 +330,7 @@ export function FeatureSection() {
                     when:
                     <ul className="list-disc pl-6 mt-2">
                       <li>Creating an account or profile.</li>
-                      <li>Participating in the courage presale.</li>
+                      <li>Participating in the presale coin presale.</li>
                       <li>Subscribing to our updates or newsletters.</li>
                       <li>Contacting our support team.</li>
                     </ul>

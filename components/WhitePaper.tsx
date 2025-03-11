@@ -20,7 +20,7 @@ const whitepaperItems = [
   {
     title: "Roadmap",
     content:
-      "$CDOG Roadmap – The Path to 1 Billion Courageously! 🚀🔥\n" +
+      "$CDOG Roadmap – The Path to 1 Billion presale coinously! 🚀🔥\n" +
       "✅ Phase 1: The 15-Hour Presale\n" +
       "Exclusive 15-hour presale for early believers.\n" +
       "Secure your $CDOG tokens before the world catches on!\n" +

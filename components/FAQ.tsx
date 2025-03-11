@@ -18,7 +18,7 @@ const faqItems = [
       "To view your tokens, follow these steps:Participate in the presale by connecting your Solana wallet.Copy your wallet address or send SOL directly. The minimum purchase is $1 USD.Once the presale ends wait for 15 minute, your tokens will be visible in your wallet automatically."
   },
   {
-    question: "What is courage ($CDOG)?",
+    question: "What is presale coin ($CDOG)?",
     answer:
     '$CDOG is the first-ever memecoin that combines burning as a vesting mechanism! Instead of unlocking tokens over time, we burn them, ensuring scarcity, stability, and long-term value. This revolutionary approach makes $CDOG deflationary, driving price action while keeping the ecosystem strong. 🚀🔥'
 
@@ -26,7 +26,7 @@ const faqItems = [
   {
     question: "How does the presale work?",
     answer:
-      "Buy during the presale—it's simple, just grab some $CDOG! No need to worry—once we launch, your tokens will be automatically available.Sit back and relax—when $CDOG hits the market, it’s shopping time!We’re aiming for 1 billion courageously! Get in early and be part of history. 🐶💰🚀"
+      "Buy during the presale—it's simple, just grab some $CDOG! No need to worry—once we launch, your tokens will be automatically available.Sit back and relax—when $CDOG hits the market, it’s shopping time!We’re aiming for 1 billion presale coinously! Get in early and be part of history. 🐶💰🚀"
   },
 ];
 

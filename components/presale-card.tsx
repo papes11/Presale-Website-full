@@ -69,7 +69,7 @@ export function PresaleCard(): JSX.Element {
         <div className="flex items-center gap-3 mb-6">
           <Image
             src="/ru.png"
-            alt="courage Logo"
+            alt="presale coin Logo"
             width={40}
             height={40}
             className="rounded-full border-2 border-black drop-shadow-[0_0_8px_rgba(255,58,140,0.5)] sm:w-8 sm:h-8"
@@ -207,7 +207,7 @@ export function PresaleCard(): JSX.Element {
               className="w-full h-12 bg-[#40C1E3] hover:bg-[#35ea56] text-white text-lg font-black rounded-xl border-4 border-black shadow-[4px_4px_0_0_#000] transition-all hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] relative overflow-hidden group sm:h-10 sm:text-sm"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/0 via-cyan-400/30 to-cyan-400/0 group-hover:translate-x-full duration-700 transition-transform" />
-              <span className="relative">Buy COURAGE</span>
+              <span className="relative">Buy presale coin</span>
             </Button>
           )}
 

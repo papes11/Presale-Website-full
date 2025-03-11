@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Courage | MemeDog Best Crypto Memecoin - 2025",
-  description: "Courage the Cowardly Coin is meme-focused on surviving the wildest market swings. No panic like courage. No selling. Just 100% HODL Power, ready to weather any storm!",
+  title: "presale coin | MemeDog Best Crypto Memecoin - 2025",
+  description: "presale coin the Cowardly Coin is meme-focused on surviving the wildest market swings. No panic like presale coin. No selling. Just 100% HODL Power, ready to weather any storm!",
   icons: {
     icon: "/ru.png",
   },

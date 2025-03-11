@@ -27,7 +27,7 @@ export function HeroSection() {
               className="block text-6xl sm:text-7xl md:text-8xl font-black text-ghost-black animate-pulse"
               style={{ textShadow: "4px 4px 0 #000, 0 0 20px #FF3A8C" }}
             >
-              COURAGE
+              presale coin
             </span>
             <div className="space-y-1">
               <p
@@ -48,7 +48,7 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-gradient-radial from-ghost-pink/30 to-transparent animate-pulse" />
             <Image
               src="/back.jpg"
-              alt="courage Characters"
+              alt="presale coin Characters"
               fill
               className="object-contain drop-shadow-[0_0_10px_rgba(255,58,140,0.5)]"
               priority

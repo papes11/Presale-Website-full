@@ -36,7 +36,7 @@ export function SiteHeader() {
             <Link href="/" className="flex items-center mr-11 -space-x-10">
               <Image
                 src="/log.png"
-                alt="Courage Logo"
+                alt="presale coin Logo"
                 width={200}
                 height={200}
                 className="rounded-full drop-shadow-[0_0_8px_rgba(255,58,140,0.5)]"
@@ -45,12 +45,12 @@ export function SiteHeader() {
                 className="text-xl text-ghost-pink animate-pulse md:text-2xl lg:text-3xl xl:text-4xl font-bold mr-2 md:inline"
                 style={{ textShadow: "1px 1px 0 #000, 0 0 10px #E6E7FF" }}
               >
-                Courage
+                presale coin
               </span>
             </Link>
             <div className="flex items-center space-x-3 ml-2 me-2 md:hidden">
               <a
-                href="https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+                href="https://en.wikipedia.org/wiki/presale coin_the_Cowardly_Dog"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -95,7 +95,7 @@ export function SiteHeader() {
             </nav>
             <div className="hidden md:flex items-center space-x-3" aria-label="Social Media Links">
               <a
-                href="https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+                href="https://en.wikipedia.org/wiki/presale coin_the_Cowardly_Dog"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -203,7 +203,7 @@ export function SiteHeader() {
             <div className="mb-4"> {/* Reduced margin-bottom */}
               <Image
                 src="/log.png"
-                alt="Courage Logo"
+                alt="presale coin Logo"
                 width={200} 
                 height={200}
                 className="rounded-full drop-shadow-[0_0_8px_rgba(255,58,140,0.5)]"
@@ -233,7 +233,7 @@ export function SiteHeader() {
             {/* Social Media Links */}
             <div className="flex items-center space-x-4 mt-4">
               <a
-                href="https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+                href="https://en.wikipedia.org/wiki/presale coin_the_Cowardly_Dog"
                 target="_blank"
                 rel="noopener noreferrer"
               >

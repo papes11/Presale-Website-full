@@ -32,7 +32,7 @@ export function loru() {
           className="text-4xl font-black text-ghost-dark text-center mb-12"
           style={{ textShadow: "2px 2px 0 rgba(255,255,255,0.5)" }}
         >
-          Unleash the Power of COURAGE
+          Unleash the Power of presale coin
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
@@ -71,7 +71,7 @@ z                          transition-transform duration-300"
           <p>
             Disclaimer: Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may fluctuate. Profits may be subject to capital gains or other taxes applicable in your jurisdiction.
           </p>
-          <p className="mt-2">©Courage 2025 all rights reserved</p>
+          <p className="mt-2">©presale coin 2025 all rights reserved</p>
         </div>
       </div>
     </section>
